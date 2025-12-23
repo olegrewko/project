@@ -1,0 +1,39 @@
+// базовые подключения
+@import "./vendor/normalize";
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/stepper";
+@import "./components/modal";
+@import "./components/small-input";
+@import "./components/mini-cart-product";
+@import "./components/mini-cart";
+@import "./components/btn";
+@import "./components/header-search";
+@import "./components/header-btn";
+@import "./components/nav";
+@import "./components/header";
+@import "./components/search-result";
+@import "./components/search-result-product";
+@import "./components/megamenu";
+@import "./components/hero";
+@import "./components/loop-scroll";
+@import "./components/main-cat";
+@import "./components/products";
+@import "./components/products-tabs";
+@import "./components/product";
+@import "./components/badge";
+@import "./components/subscribe";
+@import "./components/footer";
+@import "./components/to-top";
+@import "./components/cookie-block";
+@import "./components/breadcrumbs";
+@import "./components/inner-hero";
+@import "./components/catalog";
+@import "./components/catalog-filter-badge";
+@import "./components/custom-checkbox";
+@import "./components/custom-radio";
+@import "./components/catalog-filter";
