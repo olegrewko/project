@@ -1,4 +1,22 @@
 .catalog-filter {
+  &__price {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    &-divider {
+      font-family: 'Rubik';
+      font-weight: 500;
+
+      font-size: 16px;
+      color: var(--color-secondary);
+      line-height: 120%;
+      letter-spacing: 0%;
+    }
+  }
+
   &__items {
     display: flex;
     flex-direction: column;
@@ -13,13 +31,25 @@
   &__block {
     position: relative;
     border-bottom: 1px solid gainsboro;
+
     padding: 4px;
-    padding-left: 0;
+    // padding-left: 0;
+
+    &--open {
+      .catalog-filter__inner {
+        max-height: 250px;
+        height: 100%;
+        opacity: 1;
+        padding-top: 0px;
+        transition: all 0.3s ease-in-out;
+      }
+    }
   }
 
   &__inner {
-    padding-top: 5px;
-
+    height: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
   }
 
   &__title {

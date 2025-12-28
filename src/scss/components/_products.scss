@@ -19,7 +19,6 @@
   }
 
   &__btn {
-
     width: 100%;
   }
 
@@ -28,23 +27,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 34px;
+    margin-top: 4px;
   }
 
-  // &__inner {
-  //   display: none;
+  &__inner {
+    // display: none;
 
-  //   &--active {
-  //     display: block;
-  //   }
-  // }
+    &--active {
+      display: block;
+    }
+  }
 
   &__slider {
-    margin: -20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
 
     .swiper-slide {
-      opacity: 0;
+      width: 450px;
+      opacity: 1;
       transition: all 0.3s ease-in-out;
     }
 
